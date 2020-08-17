@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "562254325113",
+    "firebase_url": "https://help-support-d58c9.firebaseio.com",
+    "project_id": "help-support-d58c9",
+    "storage_bucket": "help-support-d58c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562254325113:android:c7a74d20f12504713d3ba8",
+        "android_client_info": {
+          "package_name": "com.akshit.help_support"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562254325113-mmh49bhp4lnlsgond2cbenp9n09r8bhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDroqo9j8MZKqC-gtHrOtO-mWL9231SZ1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562254325113-mmh49bhp4lnlsgond2cbenp9n09r8bhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
