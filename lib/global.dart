@@ -320,11 +320,11 @@ class _GlobalState extends State<Global> {
     Map<String, String> requestHeaders = {
       'Content-type': 'application/json',
       'Accept': 'application/json',
-      'x-rapidapi-host': 'coronavirus-monitor.p.rapidapi.com',
-      'x-rapidapi-key': '1be69a2fefmsh87d53a6515f2d11p1b6fa1jsna3549cddf060',
+      'HOST NANE': 'YOUR HOST NAME',
+      'x-rapidapi-key': 'YOUR API KEY',
     };
 
-    http.Response response = await http.get('https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php', headers: requestHeaders);
+    http.Response response = await http.get('YOUR API URL', headers: requestHeaders);
 
     return response.body;
   }
@@ -334,11 +334,11 @@ class _GlobalState extends State<Global> {
     Map<String, String> requestHeaders = {
       'Content-type': 'application/json',
       'Accept': 'application/json',
-      'x-rapidapi-host': 'covid-19-data.p.rapidapi.com',
-      'x-rapidapi-key': '1be69a2fefmsh87d53a6515f2d11p1b6fa1jsna3549cddf060',
+      'HOST NANE': 'YOUR HOST NAME',
+      'x-rapidapi-key': 'YOUR API KEY',
     };
 
-    http.Response response = await http.get('https://covid-19-data.p.rapidapi.com/totals', headers: requestHeaders);
+    http.Response response = await http.get('YOUR API URL', headers: requestHeaders);
 
     return jsonDecode(response.body);
   }
