@@ -339,7 +339,7 @@ class _IndiaState extends State<India> {
 
   Future<dynamic> getIndiaStats() async {
 
-    http.Response response = await http.get('https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise');
+    http.Response response = await http.get('YOUR API');
 
     return response.body;
   }
