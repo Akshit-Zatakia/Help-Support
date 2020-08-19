@@ -136,7 +136,7 @@ class _NewsState extends State<News> {
                 ImageProvider img() {
                   if (image == null) {
                     _image2 =
-                        "http://saurashtrarefrigeration.tk/helpSupport/download.png";
+                        "YOUR IMAGE URL";
                     return AssetImage('Assets/download.png');
                   } else {
                     _image2 = image;
