@@ -237,12 +237,12 @@ class _HomeState extends State<Home> {
     Map<String, String> requestHeaders = {
       'Content-type': 'application/json',
       'Accept': 'application/json',
-      'x-rapidapi-host': 'covid-19-data.p.rapidapi.com',
-      'x-rapidapi-key': '1be69a2fefmsh87d53a6515f2d11p1b6fa1jsna3549cddf060',
+      'HOST NAME': 'YOUR HOST NAME',
+      'API KEY': 'YOUR API KEY',
     };
 
     http.Response response = await http.get(
-        'https://covid-19-data.p.rapidapi.com/totals',
+        'YOUR URL',
         headers: requestHeaders);
 
     return jsonDecode(response.body);
@@ -251,12 +251,12 @@ class _HomeState extends State<Home> {
   Future<dynamic> getMaskUsageTipsImage() async {
     Map<String, String> requestHeaders = {
       'Content-type': 'image/jpeg',
-      'x-rapidapi-host': 'coronavirus-monitor.p.rapidapi.com',
-      'x-rapidapi-key': '1be69a2fefmsh87d53a6515f2d11p1b6fa1jsna3549cddf060',
+      'HOST NAME': 'YOUR HOST NAME',
+      'API KEY': 'YOUR API KEY',
     };
 
     http.Response response = await http.get(
-        'https://coronavirus-monitor.p.rapidapi.com/coronavirus/random_masks_usage_instructions.php',
+        'YORU API URL',
         headers: requestHeaders);
 
     return response.body;
