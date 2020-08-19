@@ -14,13 +14,13 @@ class _NewsMainState extends State<NewsMain> {
 
   String email;
   final List<Widget> _children = [
-    News(url: "http://newsapi.org/v2/top-headlines?country=in&apiKey=b02dd0923bf648e28e02ec48a0cefead",),
-    News(url:"http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=b02dd0923bf648e28e02ec48a0cefead"),
-    News(url:"http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=b02dd0923bf648e28e02ec48a0cefead"),
-    News(url:"http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=b02dd0923bf648e28e02ec48a0cefead"),
-    News(url:"http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=b02dd0923bf648e28e02ec48a0cefead"),
-    News(url:"http://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=b02dd0923bf648e28e02ec48a0cefead"),
-    News(url:"http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=b02dd0923bf648e28e02ec48a0cefead"),
+    News(url: "YOUR API URL AND KEY",),
+    News(url:"YOUR API URL AND KEY"),
+    News(url:"YOUR API URL AND KEY"),
+    News(url:"YOUR API URL AND KEY"),
+    News(url:"YOUR API URL AND KEY"),
+    News(url:"YOUR API URL AND KEY"),
+    News(url:"YOUR API URL AND KEY"),
   ];
 
 
